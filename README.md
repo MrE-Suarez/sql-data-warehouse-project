@@ -49,6 +49,35 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ## Data Model
 ![Data Model](docs/data_model.png)
 
+## Repository Structure
+
+```
+sql-data-warehouse-project/
+│
+├── datasets/                    # Raw CSV source data (ERP and CRM)
+│   ├── source_crm/
+│   └── source_erp/
+│
+├── docs/                        # Documentation and diagrams
+│   ├── data_architecture.png
+│   ├── data_catalog.md
+│   ├── data_flow.png
+│   ├── data_integration.png
+│   ├── data_model.png
+│   ├── ETL.png
+│   └── naming_conventions.md
+│
+├── scripts/                     # SQL scripts for ETL
+│   ├── bronze/                  # Load raw data
+│   ├── silver/                  # Clean and transform data
+│   └── gold/                    # Analytical models
+│
+├── tests/                       # Data quality checks
+│
+├── README.md
+└── LICENSE
+```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
