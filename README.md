@@ -37,6 +37,17 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ---
+## Data Architecture
+![Data Architecture](docs/data_architecture.png)
+
+## Data Flow
+![Data Flow](docs/data_flow.png)
+
+## ETL Process
+![ETL](docs/ETL.png)
+
+## Data Model
+![Data Model](docs/data_model.png)
 
 ## License
 
